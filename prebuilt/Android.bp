@@ -17,19 +17,41 @@ android_app_import {
 }
 
 android_app_import {
-        name: "MiXplorer",
-        apk: "MiXplorer/MiXplorer.apk",
+        name: "SimpleGallery",
+        apk: "SimpleGallery/SimpleGallery.apk",
         presigned: true,
         dex_preopt: {
                 enabled: true,
         },
+        overrides: ["gallery", "Gallery", "gallery3d"],
 }
 
 android_app_import {
-        name: "QPGallery",
-        apk: "QPGallery/QPGallery.apk",
+        name: "Clock",
+        apk: "Clock/Clock.apk",
         presigned: true,
         dex_preopt: {
                 enabled: true,
         },
+        overrides: ["deskclock"],
+}
+
+android_app_import {
+        name: "Etar",
+        apk: "Etar/Etar.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: true,
+        },
+        overrides: ["calendar"],
+}
+
+android_app_import {
+        name: "Material Files",
+        apk: "Material Files/Material Files.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: true,
+        },
+        overrides: ["documentsui"],
 }

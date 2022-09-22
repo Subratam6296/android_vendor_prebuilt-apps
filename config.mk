@@ -2,5 +2,7 @@
 PRODUCT_PACKAGES += \
 	BlackHole \
 	Metro \
-	MiXplorer \
-	QPGallery
+	SimpleGallery \
+	Clock \
+	Calender \
+	Material Files
